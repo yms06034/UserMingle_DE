@@ -21,12 +21,12 @@
 
 **Apache Airflow DAG**
 
-![image](https://github.com/vedanthv/data-engineering-portfolio/assets/44313631/3f34b376-804b-4534-a2c6-0225049350c0)
+![image](https://i.ibb.co/fSXY39L/279275293-3f34b376-804b-4534-a2c6-0225049350c0.png)
 
 **Confluent Control Center Consumption Stats and Health of Broker**
 
-![image](https://github.com/vedanthv/data-engineering-portfolio/assets/44313631/0bc1fda0-8fd6-43cb-96e3-648f84fba894)
+![image](https://i.ibb.co/0FvPFd8/279275590-0bc1fda0-8fd6-43cb-96e3-648f84fba894.png)
 
 **Confluent Control Center Message Queue**
 
-![image](https://github.com/vedanthv/data-engineering-portfolio/assets/44313631/ed4c9f80-0248-4502-b5c2-ddbd43ea7d81)
+![image](https://i.ibb.co/92cpY2p/279275403-ed4c9f80-0248-4502-b5c2-ddbd43ea7d81.png)
