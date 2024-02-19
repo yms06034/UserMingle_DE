@@ -1,9 +1,8 @@
-[UserMingle : Kafka-Driven User Profile Streaming]
+##UserMingle : Kafka-Driven User Profile Streaming
 
-**Brief Overview**
-
-In this project, I have used the [Random User Generator](https://randomuser.me/) API to fetch data intermittedly using Airflow DAG pipelines and store the data in Postgres DB.
-The entire streaming process is managed by a Kafka setup that has a Zookeeper pipeline to manage multiple broadcasts and process them from the message queue. There is a master-worker architecture setup on Apache Spark. Finally there is a Cassandra DB setup that has a listener that takes the stream data from Spark and stores in a columnar format. The entire project is containerized with Docker.
+본 프로젝트는 Random User Generator API를 사용하여 Airflow DAG Pipeline를 사용하여 데이터를 간헐적으로 가져와 Postgres DB에 저장했습니다.
+전체 스트르밍 프로세스는 Zookeeper Pipeline을 가진 Kafka 설정에 의해 관리 되고, 마지막으로 Spark에서 스트림 데이터를 가져와 Cassandra DB로 저장됩니다.
+해당 프로젝트는 Docker 컨테이너화로 진행하였습니다.
 
 **Solution Architecture**
 
@@ -11,22 +10,12 @@ The entire streaming process is managed by a Kafka setup that has a Zookeeper pi
 
 **Tech Stack**
 
-- **Apache Airflow**: Responsible for orchestrating the pipeline and storing fetched data in a PostgreSQL database.
-- **Apache Kafka and Zookeeper**: Used for streaming data from PostgreSQL to the processing engine.
-- **Control Center and Schema Registry**: Helps in monitoring and schema management of our Kafka streams.
-- **Apache Spark**: For data processing with its master and worker nodes.
-- **Cassandra**: Where the processed data will be stored.
+- **Apache Airflow**: 파이프라인 조정 및 가져온 데이터를 PostgreSQL 데이터베이스에 저장하는 역할.
+- **Apache Kafka and Zookeeper**: PostgreSQL에서 프로세싱 엔진으로 데이터를 스트리밍하는 데 사용됩니다.
+- **Control Center and Schema Registry**: Kafka 스트림의 모니터링 및 Schema 관리 지원.
+- **Apache Spark**: 마스터 노드 및 작업자 노드를 사용한 데이터 처리용.
+- **Cassandra**: 처리된 데이터가 저장.
 
-**Setup and Requirements**
-
-1. Clone the repository
-```git clone https://github.com/vedanthv/data-engineering-portfolio.git```
-
-2. Navigate to the project directory:
-```cd data-engineering-portfolio/user-mingle```
-
-3. Run Docker Compose to Spin Up the Service
-```docker-compose up```
 
 **Demo**
 
