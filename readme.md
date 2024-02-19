@@ -6,7 +6,7 @@
 
 **Solution Architecture**
 
-![image](https://github.com/vedanthv/data-engineering-portfolio/assets/44313631/bf025b1f-e051-4f1e-9353-1d2b837060b4)
+![image]([https://github.com/vedanthv/data-engineering-portfolio/assets/44313631/bf025b1f-e051-4f1e-9353-1d2b837060b4](https://ibb.co/xH8J5gn))
 
 **Tech Stack**
 
