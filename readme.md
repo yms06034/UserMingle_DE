@@ -1,4 +1,4 @@
-## [UserMingle : Kafka-Driven User Profile Streaming]() 🧔
+[UserMingle : Kafka-Driven User Profile Streaming]
 
 **Brief Overview**
 
