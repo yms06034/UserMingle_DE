@@ -1,4 +1,4 @@
-##[UserMingle : Kafka-Driven User Profile Streaming]
+*[UserMingle : Kafka-Driven User Profile Streaming]*
 
 본 프로젝트는 Random User Generator API를 사용하여 Airflow DAG Pipeline를 사용하여 데이터를 간헐적으로 가져와 Postgres DB에 저장했습니다.
 전체 스트르밍 프로세스는 Zookeeper Pipeline을 가진 Kafka 설정에 의해 관리 되고, 마지막으로 Spark에서 스트림 데이터를 가져와 Cassandra DB로 저장됩니다.
