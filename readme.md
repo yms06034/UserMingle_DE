@@ -30,7 +30,3 @@
 **Confluent Control Center Message Queue**
 
 ![image](https://github.com/vedanthv/data-engineering-portfolio/assets/44313631/ed4c9f80-0248-4502-b5c2-ddbd43ea7d81)
-
-**Video Demo - DAG Running and Message Queue**
-
-https://github.com/vedanthv/data-engineering-portfolio/assets/44313631/6a98c2c5-23f0-4c31-8fe1-4ff306cc15be
